@@ -35,6 +35,7 @@ class ProductPage extends StatelessWidget {
       children: const [
         Text("4"),
         IconButton(
+          key: Key("open_cart_icon"),
           onPressed: null,
           icon: Icon(Icons.shopping_cart),
         ),
